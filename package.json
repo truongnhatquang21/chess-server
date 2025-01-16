@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "rm -rf dist && tsc --outDir public",
-    "start": "node dist/api/index.js",
+    "build": "rm -rf public && tsc --outDir public",
+    "start": "node public/api/index.js",
     "dev": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
